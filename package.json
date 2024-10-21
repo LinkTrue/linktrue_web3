@@ -12,7 +12,8 @@
     "prepare": "yarn install --frozen-lockfile",
     "test": "npx hardhat test",
     "coverage": "npx hardhat coverage",
-    "deploy_op": "npx hardhat ignition deploy ignition/modules/LinkTrue.ts --network op_sepolia"
+    "deploy_op": "npx hardhat ignition deploy ignition/modules/LinkTrue.ts --network op_sepolia",
+    "deploy_ava": "npx hardhat ignition deploy ignition/modules/LinkTrue.ts --network avalanche"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",

@@ -21,6 +21,11 @@ const config: HardhatUserConfig = {
       accounts: [DEPLOYER_WALLET_PRIVATE_KEY],
       chainId: 11155420,
     },
+    avalanche :{
+      url: "https://api.avax.network/ext/bc/C/rpc",
+      accounts: [DEPLOYER_WALLET_PRIVATE_KEY],
+      chainId: 43114
+    }
   },
   gasReporter: {
     enabled: false,
